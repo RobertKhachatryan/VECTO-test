@@ -15,7 +15,7 @@ export const TrendingNow = ({ setSelectedMovie }) => {
             >
               <S.Preview
                 src={require(`../../assets/${trendingNowItem.CoverImage}`)}
-                alt="teert"
+                alt="Preivew"
               />
             </S.TrendingNowItem>
           );
